@@ -1,0 +1,40 @@
+body{
+  font-family: Verdana, Geneva, sans-serif;
+  padding-top: 70px;
+}
+
+.navbar-brand{
+  margin-top: -10px;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+}
+
+.navbar-brand small {
+  display:block;
+  font-size:14px;
+  color: #666;
+}
+
+.navbar-toggle {top:10px}
+
+@media (min-width:768px) {
+  
+  .navbar-brand {
+    padding-top:20px;
+  }
+  
+  .nav.navbar-nav a {
+    padding-top:30px;
+    padding-bottom:30px;
+  }
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #5e5e5e;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
